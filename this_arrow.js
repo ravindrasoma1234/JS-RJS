@@ -4,7 +4,7 @@ const arrow = () =>{
 }
 arrow();
 
-//access context in object or function using this keyword
+//access context in object or function using "this" keyword
 const names =  {
     firstName:"John",
     lastName:"Doe",
@@ -13,3 +13,5 @@ const names =  {
     }
 }
 console.log(names.welcomeMessage());
+
+

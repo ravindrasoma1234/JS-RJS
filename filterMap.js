@@ -35,7 +35,7 @@ newArray1.forEach((item) =>{
 
 const book =[
     {
-        title : "Book One", genre : "Fiction", publish : 1981, edition : 2004
+        title : "Book One", genre : "Fiction", publisher : 1981, edition : 2004
     },
     {
         title : "Book Two", genre : "Non-Fiction", publisher :1865, edition : 2001
@@ -48,14 +48,35 @@ const book =[
     },
     {
         title : "Book Five", genre : "finance", publisher :1879 , edition :2001,
-    
+    },
+    {
+        title : "Book Six", genre : "Fiction", publisher :1886, edition :2010
     }
-]
+];
 
+const newBook = book.filter((bk) =>
+     {
+    return bk.genre == "Fiction" && bk.publisher > 1800 ;
+})
+//console.log(newBook)
 
-aaaaaaaaaaaaaaaaaaaaaa
+// ------------------  MApping ----------------------------
 
-asdafsavc
+const newMap = [1,2,3,4,5,6,7,8,9,10]
 
+const _Map = newMap.map((num) => {
+    return num * 2;
+})
 
+//console.log(_Map)
 
+// ============== Chaninige --------------------
+
+const chanining = [1,2,3,4,5,6,7,8,9,10]
+
+const _chain =  chanining
+    .map((num) => { return num * 2 })
+    .map((num) => { return num + 1 })
+    .filter((num) => { return num > 10})
+
+console.log(_chain)

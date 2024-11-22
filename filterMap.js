@@ -60,14 +60,22 @@ const newBook = book.filter((bk) =>
 })
 //console.log(newBook)
 
+<<<<<<< HEAD
+=======
 // ------------------  MApping ----------------------------
+>>>>>>> fc5cfbaa5fa5cd2ac9bc283729595a48923ff691
 
+<<<<<<< HEAD
+=======
 const newMap = [1,2,3,4,5,6,7,8,9,10]
+>>>>>>> fc5cfbaa5fa5cd2ac9bc283729595a48923ff691
 
 const _Map = newMap.map((num) => {
     return num * 2;
 })
 
+<<<<<<< HEAD
+=======
 //console.log(_Map)
 
 // ============== Chaninige --------------------
@@ -80,3 +88,4 @@ const _chain =  chanining
     .filter((num) => { return num > 10})
 
 console.log(_chain)
+>>>>>>> fc5cfbaa5fa5cd2ac9bc283729595a48923ff691
